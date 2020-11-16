@@ -5,8 +5,8 @@ import android.app.Activity;
 import java.util.List;
 
 import pl.adriankurek.quicknotegreendao.data.api.DataProvider;
-import pl.adriankurek.quicknotegreendao.data.Note;
-import pl.adriankurek.quicknotegreendao.data.NoteDao;
+import pl.adriankurek.quicknotegreendao.data.model.Note;
+import pl.adriankurek.quicknotegreendao.data.model.NoteDao;
 
 public class DbController implements DataProvider {
     private NoteDao noteDao;
@@ -41,7 +41,7 @@ public class DbController implements DataProvider {
         noteDao.delete(note);
     }
 
-    /*public void updateNote(Note note) {
+public void updateNote(Note note) {
         noteDao.update(note);
     }
 
@@ -51,5 +51,6 @@ public class DbController implements DataProvider {
 
     public long getCount() {
         return noteDao.queryBuilder().count();
-    }*/
+    }
+
 }

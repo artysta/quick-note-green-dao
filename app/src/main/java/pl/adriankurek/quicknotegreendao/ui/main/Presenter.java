@@ -3,7 +3,7 @@ package pl.adriankurek.quicknotegreendao.ui.main;
 import java.util.Calendar;
 
 import pl.adriankurek.quicknotegreendao.data.api.DataProvider;
-import pl.adriankurek.quicknotegreendao.data.Note;
+import pl.adriankurek.quicknotegreendao.data.model.Note;
 import pl.adriankurek.quicknotegreendao.ui.main.api.Contract;
 
 public class Presenter implements Contract.Presenter {

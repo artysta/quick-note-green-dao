@@ -2,7 +2,7 @@ package pl.adriankurek.quicknotegreendao.data.api;
 
 import java.util.List;
 
-import pl.adriankurek.quicknotegreendao.data.Note;
+import pl.adriankurek.quicknotegreendao.data.model.Note;
 
 public interface DataProvider {
     void addNewNote(Note note);

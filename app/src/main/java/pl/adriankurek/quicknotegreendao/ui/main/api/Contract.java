@@ -2,7 +2,7 @@ package pl.adriankurek.quicknotegreendao.ui.main.api;
 
 import java.util.List;
 
-import pl.adriankurek.quicknotegreendao.data.Note;
+import pl.adriankurek.quicknotegreendao.data.model.Note;
 
 public interface Contract {
     interface Presenter {

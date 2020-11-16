@@ -3,7 +3,7 @@ package pl.adriankurek.quicknotegreendao.data.database;
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 
-import pl.adriankurek.quicknotegreendao.data.DaoMaster;
+import pl.adriankurek.quicknotegreendao.data.model.DaoMaster;
 
 public class DbOpenHelper extends DaoMaster.OpenHelper {
 
